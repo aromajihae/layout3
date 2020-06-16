@@ -1,0 +1,119 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+/* div {
+    float: left;
+    overflow: hidden;
+} */
+
+h1 { 
+    font-weight: normal;
+    font-size: 30px;
+    padding-left: 5px;
+    margin-bottom: 15px;
+}
+
+/* table::after {
+    content: "";
+    display: block;
+    clear: both;
+} */
+
+
+
+
+table {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    width: 32.5%;
+  
+    float: left;
+    margin: 0 5px;
+   
+ 
+}
+
+
+table:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+table tr {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table tr td {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.price {
+    padding: 10px;
+}
+
+.price b {
+    font-size: 30px;
+    }
+
+.permonth {
+    color: gray;
+}
+
+
+
+.basic {
+    background-color: black;
+    color: white;
+    
+    height: 100px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.pro {
+    background-color: rgb(55, 165, 55);
+    color: white;
+    
+    height: 100px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.premium {
+    background-color: black;
+    color: white;
+    
+    height: 100px;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.signup {
+    padding: 25px;
+    background-color: rgb(238, 234, 234);
+}
+
+.price {
+    height: 40px;
+    padding-top: 15px;
+   }
+
+   .btn {
+    border-style: none;
+       background-color: rgba(23, 160, 23, 0.8);
+       color: white;
+       width: 100px;
+       padding: 15px;
+       font-size: 15px;
+   }
+
+   .btn:hover {
+       background-color: lightgray;
+       cursor: pointer;
+       color: black;
+       
+   }
+
